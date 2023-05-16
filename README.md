@@ -51,3 +51,26 @@ Switched to branch 'dev'
 brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git branch -d test
 Deleted branch test (was aa117f3).
 ```
+### Excercise 2
+
+``` bash
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash save "home"
+No local changes to save
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash save "home"
+No local changes to save
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git add .
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash save "home"
+Saved working directory and index state On main: home
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ ^C
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git add .
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash save "about"
+Saved working directory and index state On main: about
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ ^C
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git add .
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash save "team"
+Saved working directory and index state On main: team
+brendagilisho@brenda:~/coding_projects/Gym-Git-Exercise-Solutions$ git stash list
+stash@{0}: On main: team
+stash@{1}: On main: about
+stash@{2}: On main: home
+```
