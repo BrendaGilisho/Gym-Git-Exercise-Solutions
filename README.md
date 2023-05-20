@@ -74,3 +74,41 @@ stash@{0}: On main: team
 stash@{1}: On main: about
 stash@{2}: On main: home
 ```
+## Bundle 2
+
+### Excercise 1
+
+```bash
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout -b ft/bundle-2
+Switched to a new branch 'ft/bundle-2'
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git add .
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git commit -m "pullreq & merge"
+[ft/bundle-2 b3f8d8c] pullreq & merge
+ 3 files changed, 47 insertions(+), 1 deletion(-)
+ create mode 100644 grid/task3-1.html
+ create mode 100644 services.html
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push
+fatal: The current branch ft/bundle-2 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin ft/bundle-2
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push --set-upstream origin ft/bundle-2
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.02 KiB | 349.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ft/bundle-2' on GitHub by visiting:
+remote:      https://github.com/BrendaGilisho/Ojemba_X_the_Gym/pull/new/ft/bundle-2
+remote: 
+To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
+ * [new branch]      ft/bundle-2 -> ft/bundle-2
+branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
+```
