@@ -112,3 +112,70 @@ To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
  * [new branch]      ft/bundle-2 -> ft/bundle-2
 branch 'ft/bundle-2' set up to track 'origin/ft/bundle-2'.
 ```
+### Excercise 2
+
+```bash
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git pull
+Already up to date.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout -b ft/service-redesign
+Switched to a new branch 'ft/service-redesign'
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git add .
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git commit -m 'service-redesign'
+[ft/service-redesign 5210e53] service-redesign
+ 1 file changed, 16 insertions(+)
+ create mode 100644 services.html
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push --set-upstream origin ft/service-redesign
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 609 bytes | 609.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'ft/service-redesign' on GitHub by visiting:
+remote:      https://github.com/BrendaGilisho/Ojemba_X_the_Gym/pull/new/ft/service-redesign
+remote: 
+To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
+ * [new branch]      ft/service-redesign -> ft/service-redesign
+branch 'ft/service-redesign' set up to track 'origin/ft/service-redesign'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git add .
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git commit -m 'update'
+[main c38c256] update
+ 1 file changed, 17 insertions(+)
+ create mode 100644 services.html
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 545 bytes | 272.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
+   014ddc6..c38c256  main -> main
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout ft/service-redesign
+Switched to branch 'ft/service-redesign'
+Your branch is up to date with 'origin/ft/service-redesign'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git diff ft/service-redesign..main
+diff --git a/services.html b/services.html
+index 02b330c..daba37a 100644
+--- a/services.html
++++ b/services.html
+@@ -8,8 +8,9 @@
+ </head>
+ <body>
+     <div>
+-        <h1>Pull Requests</h1>
+-        <p>Here’s a list of pull requests you can review. If you’re not sure where to start, try the ones with the most recent activity.</p>
++        <h1 class="test-h1">Pull Requests</h1>
++        <p class="test-p">Git activities</p>
++        <div></div>
+     </div>
+     
+ </body>
+```
