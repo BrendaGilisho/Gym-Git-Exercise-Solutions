@@ -178,4 +178,38 @@ index 02b330c..daba37a 100644
      </div>
      
  </body>
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git merge
+Already up to date.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ 
+ *  History restored 
+
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git fetch
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git pull
+Already up to date.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout ft/service-redesign
+Switched to branch 'ft/service-redesign'
+Your branch is up to date with 'origin/ft/service-redesign'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git status
+On branch ft/service-redesign
+Your branch is up to date with 'origin/ft/service-redesign'.
+
+nothing to commit, working tree clean
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git merge main
+Auto-merging services.html
+CONFLICT (add/add): Merge conflict in services.html
+Automatic merge failed; fix conflicts and then commit the result.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git add .
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git commit
+[ft/service-redesign b4041d6] Merge branch 'main' into ft/service-redesign
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 243 bytes | 243.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
+   5210e53..b4041d6  ft/service-redesign -> ft/service-redesign
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ 
 ```
