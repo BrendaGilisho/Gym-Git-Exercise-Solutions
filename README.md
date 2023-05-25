@@ -213,3 +213,91 @@ To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
    5210e53..b4041d6  ft/service-redesign -> ft/service-redesign
 brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ 
 ```
+## Bundle 3
+
+### Excercise 1
+
+``` bash
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout -b ft/team-page
+Switched to a new branch 'ft/team-page'
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git add .
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git commit -m 'team'
+[ft/team-page 0afb9e5] team
+ 1 file changed, 12 insertions(+)
+ create mode 100644 team.html
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git push --set-upstream origin ft/team-page
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 445 bytes | 445.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'ft/team-page' on GitHub by visiting:
+remote:      https://github.com/BrendaGilisho/Ojemba_X_the_Gym/pull/new/ft/team-page
+remote: 
+To https://github.com/BrendaGilisho/Ojemba_X_the_Gym.git
+ * [new branch]      ft/team-page -> ft/team-page
+branch 'ft/team-page' set up to track 'origin/ft/team-page'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git  checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout -b ft/contact-page
+Switched to a new branch 'ft/contact-page'
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+Your branch is up to date with 'origin/ft/team-page'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git checkout ft/team-page
+Already on 'ft/team-page'
+Your branch is up to date with 'origin/ft/team-page'.
+brendagilisho@brenda:~/coding_projects/Ojemba_X_the_Gym$ git log
+commit 0afb9e549be25f3d4b26221f6aa1ebcd6c921bcc (HEAD -> ft/team-page, origin/ft/team-page)
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Tue May 23 10:08:52 2023 +0200
+
+    team
+
+commit b4041d62458da2a3149c34dd678ab77fe29c8207 (origin/ft/service-redesign, ft/service-redesign)
+Merge: 5210e53 c38c256
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Tue May 23 08:00:10 2023 +0200
+
+    Merge branch 'main' into ft/service-redesign
+
+commit c38c2560e7e4638f0ed6b60e50c4666e38d3d794 (origin/main, origin/HEAD, main, ft/contact-page)
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Tue May 23 05:37:12 2023 +0200
+
+    update
+
+commit 5210e53048c0445bd0b0517f2734c7c23108122a
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Tue May 23 05:23:06 2023 +0200
+
+    service-redesign
+
+commit 014ddc61a5c8fd468fe433f9dbd2cbe46c0ed861
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Wed May 17 23:43:11 2023 +0200
+
+    grid
+
+commit b4024c2a1656bc4307a023fc940ed717e5252216
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Wed May 17 23:04:15 2023 +0200
+
+    grid
+
+commit aa117f35f3a98b29702ad18facfdd04ae12499ca (origin/dev, dev)
+Author: BrendaGilisho <b.gilisho@alustudent.com>
+Date:   Sun May 14 17:31:04 2023 +0200
+
+    hello world
+
+commit 298e483a1b824dc98831556a29b75b50ddf73c76
+Author: Brenda Gilisho <57228014+BrendaGilisho@users.noreply.github.com>
+Date:   Tue May 9 05:55:58 2023 +0200
+
+    Initial commit
+```
